@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18G103" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Attributes" representedClassName="Attributes" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="productId" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="unit" optional="YES" attributeType="String"/>
+        <attribute name="value" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Products" representedClassName="Products" syncable="YES">
+        <attribute name="age_restricted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="always_on_menu" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="box_limit" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="String"/>
+        <attribute name="descriptions" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="images" optional="YES" attributeType="String"/>
+        <attribute name="is_for_sale" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="is_vatable" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="list_price" optional="YES" attributeType="String"/>
+        <attribute name="productId" optional="YES" attributeType="String"/>
+        <attribute name="sku" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="volume" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="zones" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Tags" representedClassName="Tags" syncable="YES">
+        <attribute name="productId" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Products" positionX="-63" positionY="-18" width="128" height="268"/>
+        <element name="Attributes" positionX="-54" positionY="99" width="128" height="118"/>
+        <element name="Tags" positionX="-36" positionY="108" width="128" height="73"/>
+    </elements>
+</model>
